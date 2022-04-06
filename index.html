@@ -1,0 +1,73 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Blinker:wght@700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <main>
+            <div class="header">
+            <h1>Invoice creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC!</p>
+            </div>
+   
+        
+        <section>
+        <button id="btn1">Wash Car: $10</button>
+        <button id="btn2">Mow Lawn: $20</button>
+        <button id="btn3">Pull Weeds: $30</button>
+        </section>
+        <div class="container"> 
+            
+            <div>
+                <p class="p-h1 text-p">TASK</p>
+                <h3 id="text1" class="text"></h3> 
+                <h3 id="text2" class="text"></h3> 
+                <h3 id="text3" class="text"></h3> 
+            </div>
+            
+            <div>
+              <p class="p-h1">TOTAL</p>
+              
+                <div class="price-am1"> 
+                <p id="amount-span" class="amount3-span"></p>
+               <p class="amount" id="amount"></p>
+                   </div>
+            
+                <div class="price-am"> 
+               <p class="amount" id="amount2"></p>
+                <p id="amount2-span" class="amount3-span"></p>
+               </div>
+               
+               <div class="price-am"> 
+                <p class="amount" id="amount3"></p>
+               <p id="amount3-span" class="amount3-span"></p>
+               </div>
+           
+            </div>
+        </div>
+        
+            <div class="container2"> 
+            
+            <div>
+                <p class="p-h1 p-notes">NOTES</p>
+                <p class="methods">We accept cash, credit card, or PayPal</p>
+            </div>
+            
+            <div>
+              <p class="p-h1">TOTAL AMOUNT</p>
+              <p class="total-amount" id="total-amount">$0</p>
+              
+            </div>
+        </div>
+        
+
+        
+         <button class="send">Send invoice</button>
+        
+        </main>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
