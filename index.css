@@ -127,8 +127,7 @@
    
    .price-am1 {
       display: grid;
-      grid-template-columns:  auto auto;
+      grid-template-columns: auto auto;
       grid-gap: 1em;
    }
    
- 
