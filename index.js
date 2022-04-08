@@ -35,17 +35,12 @@ function Add(price) {
    
 }
   
-
-
 btn1.addEventListener("click", function() {
     amount.innerHTML = ` <span style="color: #918E9B" >$</span>${fisrtPrice} `
     Add(fisrtPrice)
     text1.textContent = "Wash Car"
     total2.push(fisrtPrice)
-    
- for (let i = 0; i < total2.length; i++) {
-       amountSpan.innerHTML = total2.length
-   }   
+      amountSpan.innerHTML = total2.length  
  
 })
 
@@ -56,11 +51,8 @@ btn2.addEventListener("click", function() {
     Add(secondPrice)
     text2.textContent = "Mow Lawn"
     total1.push(secondPrice)
-  
-  
-   for (let i = 0; i < total1.length; i++) {
      amount2Span.innerHTML = total1.length
-     }
+ 
   
      
 })
@@ -70,9 +62,6 @@ btn3.addEventListener("click", function() {
     Add(thirdPrice)
 
     text3.textContent = "Pull Weeds" 
-    total.push(thirdPrice)
- 
-   for (let i = 0; i < total.length; i++) {
      amount3Span.innerHTML = total.length
-     }
+
 })
