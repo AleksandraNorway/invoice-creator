@@ -62,6 +62,7 @@ btn3.addEventListener("click", function() {
     Add(thirdPrice)
 
     text3.textContent = "Pull Weeds" 
+     total.push(thirdPrice)
      amount3Span.innerHTML = total.length
 
 })
